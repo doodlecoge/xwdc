@@ -1,3 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" conte nt="width=device-width, initial-scale=1.0"/>
+    <title>${title} - share your knowledge here!</title>
+    <link type="text/css" rel="stylesheet" href="${base}/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="${base}/css/main.css"/>
+</head>
+<body>
 
-<hr/>
-${body}
+#parse("/WEB-INF/decorators/header.vm")
+<div style="height: 10px; overflow: hidden;"></div>
+#parse("/WEB-INF/decorators/body.vm")
+#parse("/WEB-INF/decorators/footer.vm")
+
+<script type="text/javascript" src="${base}/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="${base}/js/bootstrap.min.js"></script>
+</body>
+</html>

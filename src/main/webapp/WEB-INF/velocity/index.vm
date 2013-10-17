@@ -1,1 +1,5 @@
 this is index.vm
+
+<a href="javascript:;" class="visible-sm">Click Me!</a>
+
+<i class="glyphicon glyphicon-cloud-download"></i>
