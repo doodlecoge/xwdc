@@ -1,4 +1,4 @@
-this is index.vm
+this is index.vm $id
 
 <a href="javascript:;" class="visible-sm">Click Me!</a>
 
